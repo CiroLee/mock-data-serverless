@@ -19,7 +19,7 @@ export default function consumerService(props: ConsumerProps) {
   const list = lorem.array<ConsumerRes>(num, (l) => {
     return {
       id: l.unique.nanoid(10),
-      name: l.texts.name('en', true),
+      name: l.texts.name('cn', true),
       age: l.number.int([10, 80]),
       gender: l.helper.elements<number>([0, 1]),
       avatar: l.image.picsum({ width: 100 }),
