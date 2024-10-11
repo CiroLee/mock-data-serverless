@@ -1,0 +1,23 @@
+{
+  "name": "mock-data-serverless",
+  "description": "mock data serverless with Vercel and Hono",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "author": {
+    "name": "CiroLee",
+    "url": "https://github.com/CiroLee"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CiroLee/mock-data-serverless.git"
+  },
+  "dependencies": {
+    "hono": "^4.6.3",
+    "tiny-lorem": "^0.1.3"
+  },
+  "devDependencies": {
+    "vercel": "^37.8.0"
+  }
+}
