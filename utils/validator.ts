@@ -1,6 +1,6 @@
-export function validateNumber(input: unknown) {
+export function validateNumber(input: unknown, prefix?: string) {
   if (isNaN(Number(input))) {
-    throw new Error('Invalid number input');
+    throw new Error(`${prefix}Invalid number input`);
   }
   return Number(input);
 }
